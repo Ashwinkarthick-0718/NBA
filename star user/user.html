@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star user</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class = "heading"> Star User </h1>
+    </header>
+    <img class="image" src = "star.jpg" >
+    <div class="dropdown">
+        <select class="select" name="sample" onChange = "displayData();">
+            <option value="">--Select a Department--</option>
+            <option value="automobile">Automobile</option>
+            <option value="biotech">Biotech</option>
+            <option value="civil">Civil</option>
+            <option value="biomedical">Biomedical</option>
+            <option value="eee">EEE</option>
+            <option value="ece">ECE</option>
+            <option value="ice">ICE</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="metallurgy">Metallurgy</option>
+            <option value="production">Production</option>
+            <option value="robotics">Robotics</option>
+            <option value="fashion">Fashion</option>
+            <option value="it">IT</option>
+            <option value="textile">Textile</option>
+            <option value="cse">CSE</option>
+            <option value="amcs">AMCS</option>
+            <option value="research">Reasearch Scholor</option>
+            <option value="overall">Overall</option>
+        </select>
+    </div>
+    <div class="table1">
+        <h2 style="align-items: center;">Star User </h2>
+        <table>
+          <tr >
+            <th scope="col">S no</th>
+            <th scope="col">Roll Number</th>
+            <th scope="col">Number of transactions</th>
+          </tr>
+        
+          <tr>
+            <td>1</td>
+            <td><p id ="RollNo1"></p></td>
+            <td><p id="Count1"></p></td> 
+          </tr>
+        
+          <tr>
+            <td>2</td>
+            <td><p id = "RollNo2"></p></td>
+            <td><p id="Count2"></p></td>
+          </tr>
+            
+          <tr>
+            <td>3</td>
+            <td><p id = "RollNo3"></p></td>
+            <td><p id="Count3"></p></td>
+          </tr>
+    
+          <tr>
+            <td>4</td>
+            <td><p id = "RollNo4"></p></td>
+            <td><p id="Count4"></p></td>
+          </tr>
+    
+          <tr>
+            <td>5</td>
+            <td><p id = "RollNo5"></p></td>
+            <td><p id="Count5"></p></td>
+          </tr>
+      </table>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
